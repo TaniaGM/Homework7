@@ -1,13 +1,21 @@
-html {
+.html {
     position: relative;
     min-height: 100%;
 }
 
-body {
+.body {
     margin-bottom: 60px;
     width: 100%;
     font-family: 'Roboto', sans-serif;
-    background-image: url(/assets/killerwhale.jpg);
+    background-image: url(/assets/images/killerwhale.jpg);
+}
+.blake {
+    margin-bottom: 60px;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    color: red;
+
+    background-image: url(/assets/images/background.jpg);
 }
 
 .footer {
