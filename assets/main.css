@@ -1,0 +1,61 @@
+.html {
+    position: relative;
+    min-height: 100%;
+}
+
+.body {
+    margin-bottom: 60px;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    background-image: url(background.jpg);
+}
+
+.footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height: 60px;
+    line-height: 60px;
+    background-color:  #609BEC;
+    text-align: center;
+}
+
+.container {
+    max-width: 960px;
+    background: white;
+    padding: 1%;
+    margin-top: 2%
+}
+.carousel .indicators .indicator-item.active {
+    background-color: blue;
+}
+
+.carousel .indicators .indicator-item {
+    background-color: black;
+}
+
+.carousel .carousel-item {
+    height: 300px;
+}
+
+a {
+    font-family: 'Arial';
+}
+
+.project-title {
+    color: white;
+    text-align: center;
+    font-size: 3vh;
+    background-color: blue;
+}
+
+.card-img {
+    width: 100%;
+}
+h2 {
+    text-align: center;
+}
+
+p {
+    margin: 0;
+}
