@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Portfolio of Tania Moore
+    </title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Neucha|Roboto" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.2/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body>
+    <nav>
+        <div class="nav-wrapper blue accent-3">
+            <a href="index.html" class="brand-logo">
+                <i class="material-icons">home</i>Tania Moore</a>
+            <a href="index.html" data-target="mobile-demo" class="sidenav-trigger">
+                <i class="material-icons">menu</i>
+            </a>
+            <ul class="right hide-on-med-and-down">
+                <li>
+                    <a href="https://www.linkedin.com/in/tania-moore/" target="_blank" id="linkedin">LinkedIn</a>
+                </li>
+                <li>
+                    <a href="https://github.com/TaniaGM" target="_blank" id="github">Github</a>
+                </li>
+                <li class="active">
+                    <a href="portfolio.html" id="portfolio">Portfolio</a>
+                </li>
+                <li>
+                    <a href="contact.html" id="contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+        <li>
+            <a href="index.html" id="contact">Home</a>
+        </li>
+        <li>
+            <a href="https://www.linkedin.com/in/tania-moore/" target="_blank" id="linkedin">LinkedIn</a>
+        </li>
+        <li>
+            <a href="https://github.com/TaniaGM" target="_blank" id="github">Github</a>
+        </li>
+        <li>
+            <a href="portfolio.html" id="portfolio">Portfolio</a>
+        </li>
+        <li>
+            <a href="contact.html" id="contact">Contact</a>
+        </li>
+    </ul>
+    <div class="container" id="content-body">
+        <div class="row heading blue-text text-accent-3">
+            <div class="col-md">
+                <h1>Portfolio</h1>
+                <hr class="col-md">
+            </div>
+        </div>
+        <div class="row">
+            <div class="carousel">
+                <a class="carousel-item modal-trigger" href="#modal1">
+                    <p class="project-title">Travel App</p>
+                    <img src="assets/Travel App.png">
+                </a>
+                <a class="carousel-item modal-trigger" href="#modal2">
+                    <p class="project-title">Weather Dashboard</p>
+                    <img src="assets/Weather Dashboard.png">
+                </a>
+                <a class="carousel-item modal-trigger" href="#modal3">
+                    <p class="project-title">JavaScript Quiz</p>
+                    <img src="assets/JavaScript Quiz.png">
+                </a>
+                <a class="carousel-item modal-trigger" href="#modal4">
+                    <p class="project-title">Work Day Scheduler</p>
+                    <img src="assets/Work Day Scheduler.png">
+                </a>
+                <a class="carousel-item modal-trigger" href="#modal5">
+                    <p class="project-title">Password Generator</p>
+                    <img src="assets/Password Generator.png">
+                </a>
+            </div>
+            <div class="row">
+                <div id="modal1" class="modal">
+                    <div class="modal-content">
+                        <h4>Travel App</h4>
+                        <p>The travel app allows users to plan a short 5 day trip.  Users select the date and location.  Once user submits their preference, weather and events populate for their chosen dates.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="https://whoerman.github.io/Travel-App/" target="_blank" class="modal-close waves-effect waves-blue btn-flat">Github</a>
+                        <a href="https://github.com/whoerman/Travel-App" target="_blank" class="modal-close waves-effect waves-blue btn-flat">Website</a>
+                    </div>
+                </div>
+                <div id="modal2" class="modal">
+                    <div class="modal-content">
+                        <h4>Weather Dashboard</h4>
+                        <p>
+                        A weather dashboard that allows travelers to see the weather outlook for multiple cities So that they can plan their
+                        trips accordingly The weather dashboard will allow travelers to input and track multiple cities that show present and
+                        future weather conditions Their searches will be saved in the search history where They can click on past searches to
+                        get present and future weather conditions
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="https://github.com/TaniaGM/weather-dashboard" target="_blank" class="modal-close waves-effect waves-blue btn-flat">Github</a>
+                        <a href="https://taniagm.github.io/weather-dashboard/" target="_blank" class="modal-close waves-effect waves-blue btn-flat">Website</a>
+                    </div>
+                </div>
+                <div id="modal3" class="modal">
+                    <div class="modal-content">
+                        <h4>JavaScript Quiz</h4>
+                        <p>
+                        Creating a JavaScript quiz that will test the user's JavaScript knowledge.  The quiz will be timed, and
+                        time will be decreased if user inputs the wrong answer.  when time runs out - either by user inputting wrong 
+                        answers or by time running out the quiz ends after all questions are answered, the user can input their name 
+                        and add their score to the scoreboard timer is set for 30 seconds and the penalty for a wrong answer is a 
+                        5 second penalty deduction questions will be based on coding, rather than the amazing hockey one I had in mind.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="https://github.com/TaniaGM/JavaScriptQuiz" target="_blank" class="modal-close waves-effect waves-blue btn-flat">Github</a>
+                        <a href="https://taniagm.github.io/JavaScriptQuiz/" target="_blank" class="modal-close waves-effect waves-blue btn-flat">Website</a>
+                    </div>
+                </div>
+                <div id="modal4" class="modal">
+                    <div class="modal-content">
+                        <h4>Work Day Scheduler</h4>
+                        <p>
+                            Creating a one day work scheduler.  The audience is a busy employee who can add important events to a daily 
+                            planner so s/he can manage time effectively.  When employee opens the planner, the current day will be 
+                            displayed at the top of the calendar.  When employee scrolls down, s/he is presented with timeblocks for 
+                            standard business hours.  When employee views the timeblocks for that day, each timeblock is color coded to 
+                            indicate whether it is in the past, present, or future.  When employee clicks into a timeblock, they can 
+                            enter an event.  When employee clicks the save button for that time block, the text for that event is saved 
+                            in local storage. When employee refreshes the page, the saved events persist.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="https://github.com/TaniaGM/WorkdayScheduler" target="_blank" class="modal-close waves-effect waves-blue btn-flat">Github</a>
+                        <a href="https://taniagm.github.io/WorkdayScheduler/" target="_blank" class="modal-close waves-effect waves-blue btn-flat">Website</a>
+                    </div>
+                </div>
+                <div id="modal5" class="modal">
+                    <div class="modal-content">
+                        <h4>Password Generator</h4>
+                        <p> Allows user to select the length of the password between 8 & 128. If the user selects higher or lower, 
+                            an alert pops up; User can select a password containing 1 - 4 of the following elements. If they select 
+                            no elements, an alert pops up upper case, and/or lower case and/or symbols and/or numbers. Password is 
+                            displayed within the screen based on user's selection. User can elect to copy password to clipboard. An 
+                            alert pops up confirming password copied to clipboard.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="https://github.com/TaniaGM/Homework3" target="_blank" class="modal-close waves-effect waves-blue btn-flat">Github</a>
+                        <a href="https://taniagm.github.io/Homework3/" target="_blank" class="modal-close waves-effect waves-blue btn-flat">Website</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script language="javascript" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+    <script language="javascript" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.2/js/materialize.min.js"></script>
+    <script language="javascript" type="text/javascript" src="javascript.js"></script>
+    <script language="javascript" type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+
+</body>
+
+</html>
