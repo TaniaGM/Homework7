@@ -59,3 +59,18 @@ h2 {
 p {
     margin: 0;
 }
+
+.button {
+        background-color: #1c87c9;
+        border: none;
+        color: white;
+        width: 300px;
+        padding: 10px 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 5px;
+         }
